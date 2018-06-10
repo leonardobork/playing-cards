@@ -36,8 +36,8 @@ defmodule Cards do
     `hand_size` argument indicates how many cards should be in the hand
 
   ##Example
-      iex>deck = Cards.create_deck
-      iex> {hand, deck} = Cards.deal(1)
+      iex> deck = Cards.create_deck
+      iex> {hand, deck} = Cards.deal(deck, 1)
       iex> hand
       ["Ace of Spades"]
   """
