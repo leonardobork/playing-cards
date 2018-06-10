@@ -9,7 +9,7 @@ $ cd cards
 $ mix deps.get
 ```
 
-+#### Running Tests
+#### Running Tests
 
 ```
 $ cd cards 
